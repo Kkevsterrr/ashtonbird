@@ -339,8 +339,6 @@ function setMedal()
       medal = "platinum";
     
    elemmedal.append('<img src="assets/medal_' + medal +'.png" alt="' + medal +'">');
-   if(score < 10) 
-       return false;
    //signal that a medal has been won
    return true;
 }
