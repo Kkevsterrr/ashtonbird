@@ -325,11 +325,11 @@ function setMedal()
    var elemmedal = $("#medal");
    elemmedal.empty();
    
-   if(score < 10)
+   //if(score < 10)
       //signal that no medal has been won
-      return false;
+   //   return false;
    
-   if(score >= 10)
+  // if(score >= 10)
       medal = "bronze";
    if(score >= 20)
       medal = "silver";
