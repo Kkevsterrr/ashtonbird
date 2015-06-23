@@ -1,6 +1,6 @@
 /*
    Copyright 2014 Nebez Briefkani
-   floppybird - main.css
+   floppy/bird - main.css
    
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -315,8 +315,8 @@ Screen - Game
    height: 24px;
    background-image: url('../assets/bird.png');
    
-   -webkit-animation: animBird 300ms steps(4) infinite;
-   animation: animBird 300ms steps(4) infinite;
+   /*-webkit-animation: animBird 300ms steps(4) infinite;
+   animation: animBird 300ms steps(4) infinite;*/
 }
 
 .pipe
